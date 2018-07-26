@@ -11,6 +11,16 @@
     <link href="https://fonts.googleapis.com/css?family=" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=" rel="stylesheet">
     <title>QualityCarePlus</title>
+    <style>
+    body {
+        background-image: url("pics/background1.jpg");
+        padding-top: 1em;
+        padding-bottom: 1em;
+        opacity: 0.9;
+        filter: alpha(opacity=30);
+        z-index: -3;
+        }
+    </style>
 </head>
 
 <body>
@@ -18,27 +28,43 @@
         <!-- Put everything in here -->
         <header class="row">
             <!-- Logo & Name -->
-    	    <div class="col-md-12">
-    			<h1 class="title-large">QualityCarePlus+</h1>
+    	    <div class="col-lg-12">
+    			<img src="pics/2Dlogo.jpg" alt="QualityCarePlus">
     	    </div>
         </header>
 
         <main class="row">
-            <div class="col-md-6">
-            	<a href="{{url_for('Liberty')}}">
+            <div class="col-md-3">
+            	<a href="https://www.google.com/maps/place/Trinity+Valley+Medical+Clinic/@30.0591969,-94.7822256,15z/data=!4m5!3m4!1s0x0:0x7bfe4e7f9f850e1c!8m2!3d30.0591969!4d-94.7822256" target="_blank">
             		<figure>
                 		<figcaption>Liberty Office</figcaption>
-                			<img src="pics/Capture1.jpg" alt="Liberty Office">
+                			<img src="pics/Dale1crop.jpg">
+                            <p> Dale Brock</p>
             		</figure>
             	</a>
         	</div>
-        		<div class="col-md-6">
-        			<figure>
-        				<figcaption>thytgh Office</figcaption>
-        				<img src="pics/Capture2.jpg" alt="Office">
-        			</figure>
-        		</div>
-
+                <div class="col-md-3">
+                    <p>Dale Brock is a Nurse Practioner with over 15 years experience.
+                        He has been helping patients in Liberty for over 10 years. His
+                        clinic is a full service family practice, DOT exams, and a weight
+                        loss clinic all in one.</p>
+                    <p>Hours of operation are Monday thru Friday 9am to 5pm and Saturday
+                        from 9am to Noon or call (936)336-3100</p>
+                </div>
+            		<div class="col-md-3">
+            			<a href="https://www.google.com/maps/place/Riceland+Clinic/@29.4640885,-94.6231164,15z/data=!4m5!3m4!1s0x0:0xe339c70e3d57cfd!8m2!3d29.4640885!4d-94.6231164" target="_blank">
+            				<figure>
+            					<figcaption>Crystal Beach Office</figcaption>
+            					<img src="pics/Capture2.jpg">
+                                <p>Bruce Mitchell</p>
+            				</figure>
+            			</a>
+            		</div>
+                        <div class="col-md-3">
+                            <p>Bruce Mitchell, PA specializes in Physician Assistant in Crystal Beach area and has over 36 years of experience in the field of medicine. Dr. Mitchell is accepting new patients at his medical office and center location and available for appointments, preventative care, medical care as well as ongoing patient care.</p>
+                            <p>Hours of operation are Mon-Tue-Thur-Fri 8am-Noon
+                            and 1pm-3:45pm or call (409)684-1185</p>
+                        </div>
     	</main>
     </div>
 </body>
