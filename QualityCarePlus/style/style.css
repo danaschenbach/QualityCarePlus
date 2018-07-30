@@ -14,6 +14,21 @@ header {
 	padding-bottom: 1em;
 }
 
+.container {
+	padding-top: 0.313em;
+	border-width: 1em;
+	max-width: 80em;
+}
+
+.col-lg-12 {
+    padding-bottom: 0.313em;
+    text-align: center;
+}
+
+main, second {
+    text-align: center;
+}
+
 img {
     display: inline-block;
     vertical-align: center;
@@ -25,8 +40,10 @@ img {
 }
 
 figcaption {
-    color: #f00;
-    font-family: "Jim Nightshade", cursive;
+    color: #000;
+    font-family: 'Crimson Text', serif;
+    background-color: #5585D7;
+    border-radius: 5px;
     text-align: center;
     font-size: 2em;
 }
@@ -34,24 +51,8 @@ figcaption {
 p {
     font: 1em slabo, serif;
     background-color: white;
-    border-radius: 25px;
+    border-radius: 5px;
     padding-top: 1em;
     padding-bottom: 1em;
-    text-align: center;
-}
-
-main, second {
-    text-align: center;
-}
-
-.container {
-	padding-top: 0.313em;
-	border-width: 1em;
-	max-width: 80em;
-}
-
-.col-lg-12 {
-	font-size: 3.75em;
-    padding-bottom: 0.313em;
     text-align: center;
 }
